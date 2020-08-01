@@ -1,0 +1,40 @@
+table{
+    margin-left: 30%;
+    margin-top: 7%;
+    width: 40%;
+    text-align: center;
+    border-width: 1ch;
+    word-wrap: break-word;
+    width: 50%;
+    height: 30%;
+    border-color:black;
+    
+}
+th,td{
+    text-align: center;
+    padding-bottom: 2%;
+    background-color:grey;
+    padding-top: 2%;
+    color:black;
+}
+.al{
+    margin-top: 5%;
+   margin-left: 50%;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-align: center;
+    margin-left: 50%;
+}
+label{
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+  }
+  p{
+    text-align: center;
+    margin-left: 40%;
+  }
+

@@ -1,0 +1,26 @@
+
+<link rel="stylesheet" type="text/css" href="/style.css" />
+        <table  border="1">
+            <thead>
+                <tr>
+                <th>UserName</th>
+                <th>Catogory</th>
+                <th>Project Title</th>
+                </tr>
+              </thead>
+            <tr ng-repeat="user in filteredItems">
+            
+            <td data-title="'Name'">{{user.UserName}}</td>
+            
+            <td data-title="'Age'">{{user.catname}}</td>
+            
+            <td data-title="'Location'">{{user.project_title}}</td>
+            
+            </tr>
+        </table>
+
+        <div class="al">
+        <div style="text-align: center;" data-pagination="" data-num-pages="numOfPages()" 
+        data-current-page="curPage" data-max-size="maxSize"  
+        data-boundary-links="true"></div>
+    </div>

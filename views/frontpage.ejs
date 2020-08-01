@@ -1,0 +1,26 @@
+    
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <form name="indexPage">
+        <table>
+            <tr>
+                <td>LOGIN</td>
+            </tr>
+            <tr>
+                <td>
+                    UserName* : <input name="username" type="text"ng-model="username"required />
+                    <br>
+                    <br>
+                    PassWord* : <input type="password" name="password" ng-model="password" required />
+                </td>
+            </tr>
+            <tr>
+                <td><button ng-disabled="indexPage.username.$invalid||indexPage.password.$invalid"
+                        ng-click="validationFun('/tableboard',username,password)">Login</button> </td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <p style="color: red;">{{warn}}</p>
+    <br>
+    <a href="/create_account" name="create_account">Create Login Account</a>
+    

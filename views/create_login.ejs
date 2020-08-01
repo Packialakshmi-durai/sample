@@ -1,0 +1,12 @@
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+        <form name="createpage">
+            <table >
+                     <tr ><td > <label>UserName:</label> <input type="text" ng-model="data.UserNameNew" required/></td></tr>
+                     <tr ><td > <label>Password:</label>  <input type="text" ng-model="data.PasswordNew" required/></td></tr>
+                     <tr>
+                        <td><button  ng-disabled="createpage.data.UserNameNew.$invalid||createpage.data.UserIdNew.$invalid" ng-click ="pushfun(data)">Add</button> </td>
+                    </tr>
+                    
+         </table>
+        </form>
